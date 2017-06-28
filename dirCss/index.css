@@ -1,0 +1,263 @@
+
+*{
+    margin:5px;
+
+}
+
+body{
+
+    background-image: url(dirCss/index.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    transition: all 1s;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+
+.main {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.6);
+    margin: auto;
+    width: 400px;
+}
+
+
+/* HEADER STRUCTURE */
+
+    #header {
+    position: relative;
+    overflow: hidden;
+    height: 250px;
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(yellow , yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(yellow , red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(yellow , red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FFFF14,#FFFF14,#FFDB14,#F0890D   ); /* Standard syntax (must be last) */
+    } 
+
+
+/*IMPUT BUSCAR*/
+.input-group .search {
+    font-size: 20px;
+}
+
+/* TAGS STRUCTURE  */
+
+#tags {
+
+    position: relative;
+    height: auto;
+    overflow: hidden;
+} 
+
+
+.filter-button
+{
+    font-size: 15px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+}
+ .filter-button i {
+    font-size: 25px;
+ }
+
+
+
+
+/* LIST STRUCTURE */
+
+#listas {
+
+    position: relative;
+    height: auto;
+    overflow: hidden;
+} 
+
+
+.margin-list {
+        margin-left: -30px;
+}
+
+
+
+/* EMPRESAS DESTACADAS */
+
+#destacados{
+     position: relative;
+    height: auto;
+   /* background-color: orange; */
+    overflow: hidden;
+}
+
+
+/* OFERTAS STRUCTURE */
+
+
+#ofertas{ 
+    position: relative;
+    height: auto;
+
+    overflow: hidden;
+}
+
+
+/* LICITACIONES STRUCTURE */
+
+#licitacionesEmpleos{
+    position: relative;
+    height: auto;
+    /*background-color: gray;*/
+    overflow: hidden;
+}
+
+
+/* REGISTER STRUCTURE */
+
+#registro{
+  position: relative;
+    height: auto;
+   /* background-color: pink; */
+    overflow: hidden;    
+}
+
+
+/* FOOTER STRUCTURE */
+
+#futter{
+    position: relative;
+    height: 100px;
+    background-color:black;
+    overflow: hidden;
+}
+
+
+/* SEARCH INPUT STRUCTURE*/
+
+#custom-search-input{
+    padding: 0px;
+    border: solid 1px #000;
+    border-radius: 6px;
+    background-color: #fff;
+     padding: 5px;
+}
+
+#custom-search-input input{
+    border: 0;
+    box-shadow: none;.
+ 
+}
+
+#custom-search-input button{
+    margin: 2px 0 0 0;
+    background: none;
+    box-shadow: none;
+    border: 0;
+    color: #666666;
+    padding: 0 8px 0 10px;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input button:hover{
+    border: 0;
+    box-shadow: none;
+    border-left: solid 1px #ccc;
+}
+
+#custom-search-input .glyphicon-search{
+    font-size: 15px;
+}
+
+
+
+/* FORMULARIO STRUCTURE */
+
+i.input-group-addon {
+  /*  padding: 6px 12px;  */
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+
+/*CSS SLIDE FOR EMPRESAS DESTACADAS*/
+
+.fa.fa-chevron-circle-right {
+    right: 0;
+}
+.fa.fa-chevron-circle-left {
+    left: 0;
+}
+.fa.fa-chevron-circle-right, .fa.fa-chevron-circle-left {
+    margin-bottom: 1px;
+    position: absolute;
+    top: -30px;
+    color:#FF7700;
+}
+.col-img-responsive02 span{
+    color:#fff;
+}
+.col-img-responsive02 {
+    
+    display:none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.6);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.carousel-control{
+width:5%;
+}
+.panel-body{
+    position:relative;
+    padding:0px;
+}
+.btn-primary {
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    border-radius: 0;
+    bottom: -15px;
+    color: #fff;
+    position: relative;
+    width: 100%;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);   
+}
+.btn-primary {
+    background-color: #ff7700;
+    border-color: #fff;
+}
+.panel-default{
+-webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.38);
+    border: medium none;
+    border-radius: 0;
+}
+
+.panel-heading{
+    padding:0px;
+    position:relative;
+}
+.panel-heading img{
+    width:100%;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right{
+    background-image: none;
+}
